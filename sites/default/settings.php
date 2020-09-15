@@ -29,7 +29,7 @@ if (file_exists($local_settings)) {
 if (defined('PANTHEON_ENVIRONMENT')) {
   // Include the Redis services.yml file. Adjust the path if you installed to a contrib or other subdirectory.
   $settings['container_yamls'][] = 'modules/redis/example.services.yml';
-
+  $settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config';
   //phpredis is built into the Pantheon application container.
   $settings['redis.connection']['interface'] = 'PhpRedis';
   // These are dynamic variables handled by Pantheon.
