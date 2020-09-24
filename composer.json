@@ -17,11 +17,13 @@
     "require": {
         "composer/installers": "^1.2",
         "drupal/cas": "^1.7",
+        "drupal/cas_attributes": "^1.0@beta",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/search_api_pantheon": "~1.0",
+        "drupal/token": "^1.7",
         "drupal/views_taxonomy_term_name_depth": "^6.0"
     },
     "conflict": {
