@@ -44,7 +44,8 @@ if (defined('PANTHEON_ENVIRONMENT')) {
   $settings['cache']['bins']['form']      = 'cache.backend.database';
 
   // Set S3FS and config for private FS to host on S3.
-  $settings['s3fs.access_key'] = $_ENV['S3FS_ACCESS_KEY'];
-  $settings['s3fs.secret_key'] = $_ENV['S3FS_SECRET_KEY'];
+  $secrets = json_decode(file_get_contents($_SERVER['HOME'] . '/files/private/secrets.json'), 1);
+  $settings['s3fs.access_key'] = $secrets['S3FS_ACCESS_KEY'];
+  $settings['s3fs.secret_key'] = $secrets['S3FS_SECRET_KEY'];
   $settings['s3fs.use_s3_for_private'] = TRUE;
 }
