@@ -22,6 +22,7 @@
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
+        "drupal/s3fs": "^3.0@alpha",
         "drupal/search_api_pantheon": "~1.0",
         "drupal/token": "^1.7",
         "drupal/views_taxonomy_term_name_depth": "^6.0"

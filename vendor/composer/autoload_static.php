@@ -35,6 +35,8 @@ class ComposerStaticInit7320d926879abcbedcc51a3c63fd2d6a
         '786bf90caabc9e09b6ad4cc5ca8f0e30' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_uploaded_files.legacy.php',
         '751a5a3f463e4be759be31748b61737c' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/parse_cookie_header.legacy.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
+        'b067bc7112e384b61c701452d53a14a8' => __DIR__ . '/..' . '/mtdowling/jmespath.php/src/JmesPath.php',
+        '8a9dc1de0ca7e01f3e08231539562f61' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -87,6 +89,10 @@ class ComposerStaticInit7320d926879abcbedcc51a3c63fd2d6a
             'Laminas\\Escaper\\' => 16,
             'Laminas\\Diactoros\\' => 18,
         ),
+        'J' => 
+        array (
+            'JmesPath\\' => 9,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -118,6 +124,7 @@ class ComposerStaticInit7320d926879abcbedcc51a3c63fd2d6a
         ),
         'A' => 
         array (
+            'Aws\\' => 4,
             'Asm89\\Stack\\' => 12,
         ),
     );
@@ -259,6 +266,10 @@ class ComposerStaticInit7320d926879abcbedcc51a3c63fd2d6a
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-diactoros/src',
         ),
+        'JmesPath\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mtdowling/jmespath.php/src',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -326,6 +337,10 @@ class ComposerStaticInit7320d926879abcbedcc51a3c63fd2d6a
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+        ),
+        'Aws\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/aws/aws-sdk-php/src',
         ),
         'Asm89\\Stack\\' => 
         array (
