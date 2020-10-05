@@ -42,4 +42,9 @@ if (defined('PANTHEON_ENVIRONMENT')) {
 
   // Set Redis to not get the cache_form (no performance difference).
   $settings['cache']['bins']['form']      = 'cache.backend.database';
+
+  // Set S3FS and config for private FS to host on S3.
+  $settings['s3fs.access_key'] = $_ENV['S3FS_ACCESS_KEY'];
+  $settings['s3fs.secret_key'] = $_ENV['S3FS_SECRET_KEY'];
+  $settings['s3fs.use_s3_for_private'] = TRUE;
 }
