@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8812378519d41b160eba70846acc6716",
+    "content-hash": "54cfdfacdc122f8b98e9ec85061a62f1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1418,6 +1418,65 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/s3fs",
                 "issues": "https://www.drupal.org/project/issues/s3fs"
+            }
+        },
+        {
+            "name": "drupal/s3fs_cors",
+            "version": "1.0.0-beta4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/s3fs_cors.git",
+                "reference": "8.x-1.0-beta4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/s3fs_cors-8.x-1.0-beta4.zip",
+                "reference": "8.x-1.0-beta4",
+                "shasum": "50be2edade8293771cddb08d233c929acad888d6"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/s3fs": "*",
+                "drupal/token": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-beta4",
+                    "datestamp": "1590206722",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                },
+                {
+                    "name": "coredumperror",
+                    "homepage": "https://www.drupal.org/user/1140544"
+                },
+                {
+                    "name": "jlscott",
+                    "homepage": "https://www.drupal.org/user/213325"
+                },
+                {
+                    "name": "webankit",
+                    "homepage": "https://www.drupal.org/user/533078"
+                }
+            ],
+            "description": "Supplements the drupal/s3fs module by providing for direct upload to AWS S3 storage.",
+            "homepage": "https://www.drupal.org/project/s3fs_cors",
+            "support": {
+                "source": "https://git.drupalcode.org/project/s3fs_cors",
+                "issues": "https://www.drupal.org/project/issues/s3fs_cors"
             }
         },
         {
@@ -4604,7 +4663,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/cas_attributes": 10,
-        "drupal/s3fs": 15
+        "drupal/s3fs": 15,
+        "drupal/s3fs_cors": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
