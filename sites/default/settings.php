@@ -29,7 +29,7 @@ if (file_exists($local_settings)) {
 if (defined('PANTHEON_ENVIRONMENT')) {
   // Include the Redis services.yml file. Adjust the path if you installed to a contrib or other subdirectory.
   $settings['container_yamls'][] = 'modules/redis/example.services.yml';
-  $settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config';
+
   //phpredis is built into the Pantheon application container.
   $settings['redis.connection']['interface'] = 'PhpRedis';
   // These are dynamic variables handled by Pantheon.
@@ -49,4 +49,6 @@ if (defined('PANTHEON_ENVIRONMENT')) {
   $settings['s3fs.secret_key'] = $secrets['S3FS_SECRET_KEY'];
   $config['s3fs.settings']['bucket'] = 'utk-databases-large-files';
   $settings['s3fs.use_s3_for_private'] = TRUE;
+  $settings['s3fs.upload_as_private'] = TRUE;
+  $settings['config_sync_directory'] = 'sites/default/config';
 }
