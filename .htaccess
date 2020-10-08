@@ -163,8 +163,7 @@ AddEncoding gzip svgz
     # Serve correct content types, and prevent double compression.
     RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1,E=no-brotli:1]
     RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1,E=no-brotli:1]
-    # Making the S3FS file require authentication
-    RewriteRule ^sites\/default\/files\/(private\/.*)$ index.php?q=system/files/$1 [L,QSA]
+
     <FilesMatch "(\.js\.gz|\.css\.gz)$">
       # Serve correct encoding type.
       Header set Content-Encoding gzip
