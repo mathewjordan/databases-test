@@ -1,0 +1,29 @@
+uuid: 49cddcb9-4c1b-4b20-9c3e-2eed91950126
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.music_db_search_view
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: exposedformmusic_db_search_viewpage_1
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'views_exposed_filter_block:music_db_search_view-page_1'
+settings:
+  id: 'views_exposed_filter_block:music_db_search_view-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "/music-view\r\n/music-db-search-view"
+    negate: false
+    context_mapping: {  }

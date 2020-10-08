@@ -1,0 +1,23 @@
+uuid: be1f058f-d163-48d1-a72f-5d506b104e0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ejournals
+  module:
+    - text
+id: node.ejournals.body
+field_name: body
+entity_type: node
+bundle: ejournals
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

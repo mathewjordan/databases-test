@@ -1,0 +1,33 @@
+uuid: 308b011e-d789-4483-bbeb-f4c28a91fbc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.iterate.body
+    - field.field.node.iterate.field_tags
+    - node.type.iterate
+  module:
+    - text
+    - user
+id: node.iterate.teaser
+targetEntityType: node
+bundle: iterate
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_tags: true
+  search_api_excerpt: true

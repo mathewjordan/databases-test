@@ -1,0 +1,22 @@
+uuid: e9491e15-de99-49f8-83d6-146f952e269f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.corvey
+id: node.corvey.status
+field_name: status
+entity_type: node
+bundle: corvey
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

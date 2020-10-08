@@ -1,0 +1,16 @@
+uuid: 5bdfed6c-bc93-4bcf-868f-f75d78d19cfa
+langcode: en
+status: true
+dependencies: {  }
+id: adspender_role
+label: 'adspender Manager'
+weight: 5
+is_admin: null
+permissions:
+  - 'create adspender content'
+  - 'delete adspender revisions'
+  - 'delete own adspender content'
+  - 'edit any adspender content'
+  - 'edit own adspender content'
+  - 'revert adspender revisions'
+  - 'view adspender revisions'

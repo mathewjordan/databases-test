@@ -1,0 +1,38 @@
+uuid: a1691fb5-686c-4a4e-90a7-f8194ff6eca8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.chinacensus.body
+    - field.field.node.chinacensus.field_tags
+    - node.type.chinacensus
+  module:
+    - text
+    - user
+id: node.chinacensus.default
+targetEntityType: node
+bundle: chinacensus
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

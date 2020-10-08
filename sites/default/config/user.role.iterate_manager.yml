@@ -1,0 +1,16 @@
+uuid: 83a1a780-0aa8-48da-bb35-330f5fee9925
+langcode: en
+status: true
+dependencies: {  }
+id: iterate_manager
+label: 'ITERATE Manager'
+weight: 13
+is_admin: null
+permissions:
+  - 'create iterate content'
+  - 'delete iterate revisions'
+  - 'delete own iterate content'
+  - 'edit any iterate content'
+  - 'edit own iterate content'
+  - 'revert iterate revisions'
+  - 'view iterate revisions'

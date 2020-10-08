@@ -1,0 +1,38 @@
+uuid: 3481f64f-fa11-4e9f-9b10-39dc82d66d02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cntsda.body
+    - field.field.node.cntsda.field_tags
+    - node.type.cntsda
+  module:
+    - text
+    - user
+id: node.cntsda.default
+targetEntityType: node
+bundle: cntsda
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

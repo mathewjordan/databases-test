@@ -1,0 +1,16 @@
+uuid: 8af3a045-0799-450a-8fb9-43320ec89768
+langcode: en
+status: true
+dependencies: {  }
+id: chinacensus_manager
+label: 'chinacensus Manager'
+weight: 7
+is_admin: null
+permissions:
+  - 'create chinacensus content'
+  - 'delete chinacensus revisions'
+  - 'delete own chinacensus content'
+  - 'edit any chinacensus content'
+  - 'edit own chinacensus content'
+  - 'revert chinacensus revisions'
+  - 'view chinacensus revisions'

@@ -1,0 +1,14 @@
+uuid: 8102cd1f-a294-41d2-8c92-4508433b8b62
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.music_manager
+  module:
+    - user
+id: user_add_role_action.music_manager
+label: 'Add the Music Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: music_manager

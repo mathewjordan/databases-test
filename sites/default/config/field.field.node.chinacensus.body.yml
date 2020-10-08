@@ -1,0 +1,23 @@
+uuid: f8e8d3e0-0eca-4f21-8202-3b42953bc250
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.chinacensus
+  module:
+    - text
+id: node.chinacensus.body
+field_name: body
+entity_type: node
+bundle: chinacensus
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

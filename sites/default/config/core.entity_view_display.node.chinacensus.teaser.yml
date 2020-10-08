@@ -1,0 +1,33 @@
+uuid: 73724ddd-833b-4d85-899b-7eed93a29748
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.chinacensus.body
+    - field.field.node.chinacensus.field_tags
+    - node.type.chinacensus
+  module:
+    - text
+    - user
+id: node.chinacensus.teaser
+targetEntityType: node
+bundle: chinacensus
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_tags: true
+  search_api_excerpt: true

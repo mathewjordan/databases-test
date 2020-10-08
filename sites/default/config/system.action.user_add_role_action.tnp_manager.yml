@@ -1,0 +1,14 @@
+uuid: 7bbef9c2-6969-4d33-9886-1a2c8acd6339
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.tnp_manager
+  module:
+    - user
+id: user_add_role_action.tnp_manager
+label: 'Add the TNP Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: tnp_manager

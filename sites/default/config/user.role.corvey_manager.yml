@@ -1,0 +1,16 @@
+uuid: bcdefd5d-7523-455e-bd86-68cca4862254
+langcode: en
+status: true
+dependencies: {  }
+id: corvey_manager
+label: 'corvey Manager'
+weight: 9
+is_admin: null
+permissions:
+  - 'create corvey content'
+  - 'delete corvey revisions'
+  - 'delete own corvey content'
+  - 'edit any corvey content'
+  - 'edit own corvey content'
+  - 'revert corvey revisions'
+  - 'view corvey revisions'

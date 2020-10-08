@@ -1,0 +1,14 @@
+uuid: 5364a16d-d5aa-4b2f-9299-f4ecf0316e5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.census_ftd_role
+  module:
+    - user
+id: user_remove_role_action.census_ftd_role
+label: 'Remove the census-ftd Role role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: census_ftd_role

@@ -1,0 +1,14 @@
+uuid: 6f1fadd2-96f9-4228-acc2-63866b991811
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.adspender_role
+  module:
+    - user
+id: user_add_role_action.adspender_role
+label: 'Add the adspender Role role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: adspender_role

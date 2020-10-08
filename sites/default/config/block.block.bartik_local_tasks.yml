@@ -2,6 +2,8 @@ uuid: 97177643-1dab-4d51-82d6-2ce486ea2157
 langcode: en
 status: true
 dependencies:
+  module:
+    - node
   theme:
     - bartik
 _core:
@@ -19,4 +21,11 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      tnp: tnp
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

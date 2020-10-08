@@ -1,0 +1,19 @@
+uuid: 1e6891d1-9b79-409e-93e5-012e9f72f5a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_detail_holdings
+    - node.type.tnp
+id: node.tnp.field_detail_holdings
+field_name: field_detail_holdings
+entity_type: node
+bundle: tnp
+label: 'Detail Holdings'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

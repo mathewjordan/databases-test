@@ -1,0 +1,22 @@
+uuid: 6b82d785-ea7f-4544-87f2-a93f96a60bac
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tnp
+id: node.tnp.promote
+field_name: promote
+entity_type: node
+bundle: tnp
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

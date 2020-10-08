@@ -1,0 +1,29 @@
+uuid: 517a9f2a-34ba-4375-89ad-42f1b77654a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tnp_db_search_view2
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: exposedformtnp_db_search_view2page_1
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_exposed_filter_block:tnp_db_search_view2-page_1'
+settings:
+  id: 'views_exposed_filter_block:tnp_db_search_view2-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "/tnp\r\n/tnp-db-search-view*"
+    negate: false
+    context_mapping: {  }

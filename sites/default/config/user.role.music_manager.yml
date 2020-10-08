@@ -1,0 +1,16 @@
+uuid: 302af6af-1a3a-4dd2-986c-724fd358633c
+langcode: en
+status: true
+dependencies: {  }
+id: music_manager
+label: 'Music Manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'create music_db content'
+  - 'delete music_db revisions'
+  - 'delete own music_db content'
+  - 'edit any music_db content'
+  - 'edit own music_db content'
+  - 'revert music_db revisions'
+  - 'view music_db revisions'

@@ -1,0 +1,14 @@
+uuid: a46b255e-888f-4323-a7ec-69061085a4ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chinacensus_manager
+  module:
+    - user
+id: user_add_role_action.chinacensus_manager
+label: 'Add the chinacensus Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: chinacensus_manager

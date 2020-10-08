@@ -1,0 +1,33 @@
+uuid: 5d6c2d82-6dd3-4061-9e2f-e26d61e25eb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.corvey.body
+    - field.field.node.corvey.field_tags
+    - node.type.corvey
+  module:
+    - text
+    - user
+id: node.corvey.teaser
+targetEntityType: node
+bundle: corvey
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_tags: true
+  search_api_excerpt: true

@@ -1,0 +1,22 @@
+uuid: 19d63230-f79d-4e89-8f63-a09f86775a5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.corvey
+id: node.corvey.promote
+field_name: promote
+entity_type: node
+bundle: corvey
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

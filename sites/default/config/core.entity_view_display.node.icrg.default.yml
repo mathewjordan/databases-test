@@ -1,0 +1,38 @@
+uuid: c979ec0b-b70e-42ec-88bb-1107aefd84e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.icrg.body
+    - field.field.node.icrg.field_tags
+    - node.type.icrg
+  module:
+    - text
+    - user
+id: node.icrg.default
+targetEntityType: node
+bundle: icrg
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,14 @@
+uuid: fccb75d4-aab4-4fe1-90b4-34852dd6fd0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chinacensus_manager
+  module:
+    - user
+id: user_remove_role_action.chinacensus_manager
+label: 'Remove the chinacensus Manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: chinacensus_manager

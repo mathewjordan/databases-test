@@ -1,0 +1,38 @@
+uuid: 152edb42-7462-488c-bfea-5c113f0f4728
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ejournals.body
+    - field.field.node.ejournals.field_tags
+    - node.type.ejournals
+  module:
+    - text
+    - user
+id: node.ejournals.default
+targetEntityType: node
+bundle: ejournals
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

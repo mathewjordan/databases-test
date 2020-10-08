@@ -1,0 +1,14 @@
+uuid: f3e8993f-56c6-4747-bda7-700738f73ff3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.icrg_manager
+  module:
+    - user
+id: user_add_role_action.icrg_manager
+label: 'Add the ICRG Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: icrg_manager

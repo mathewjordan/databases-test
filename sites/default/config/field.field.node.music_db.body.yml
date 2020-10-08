@@ -1,0 +1,23 @@
+uuid: a5d1f21e-7205-4369-b38f-782876ab733b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.music_db
+  module:
+    - text
+id: node.music_db.body
+field_name: body
+entity_type: node
+bundle: music_db
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

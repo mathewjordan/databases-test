@@ -1,0 +1,22 @@
+uuid: 1d3baa32-dbb7-425e-b0af-748178455965
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ejournals
+id: node.ejournals.status
+field_name: status
+entity_type: node
+bundle: ejournals
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

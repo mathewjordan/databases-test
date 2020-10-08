@@ -1,0 +1,35 @@
+uuid: 4c7055ab-cd39-4721-aa3f-8c38fceaaeda
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.music_db.body
+    - field.field.node.music_db.field_music_file
+    - field.field.node.music_db.field_tags
+    - node.type.music_db
+  module:
+    - text
+    - user
+id: node.music_db.teaser
+targetEntityType: node
+bundle: music_db
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_music_file: true
+  field_tags: true
+  search_api_excerpt: true

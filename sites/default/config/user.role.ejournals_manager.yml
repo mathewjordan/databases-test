@@ -1,0 +1,16 @@
+uuid: a971ecb8-812d-4ce9-be91-c15cdaa2d945
+langcode: en
+status: true
+dependencies: {  }
+id: ejournals_manager
+label: 'ejournals Manager'
+weight: 10
+is_admin: null
+permissions:
+  - 'create ejournals content'
+  - 'delete ejournals revisions'
+  - 'delete own ejournals content'
+  - 'edit any ejournals content'
+  - 'edit own ejournals content'
+  - 'revert ejournals revisions'
+  - 'view ejournals revisions'

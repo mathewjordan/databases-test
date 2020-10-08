@@ -1,0 +1,18 @@
+uuid: ac85b2cf-9000-4237-b4a9-f075aa8cbaa9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: ITERATE
+type: iterate
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

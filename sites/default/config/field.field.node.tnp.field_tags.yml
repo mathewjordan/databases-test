@@ -1,0 +1,33 @@
+uuid: ac46d23c-1237-421e-933e-3cb892eb0e3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.tnp
+    - taxonomy.vocabulary.tags
+  content:
+    - 'taxonomy_term:tags:e949cd62-47e2-4611-9c7b-ed55fba11fb8'
+id: node.tnp.field_tags
+field_name: field_tags
+entity_type: node
+bundle: tnp
+label: database
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: e949cd62-47e2-4611-9c7b-ed55fba11fb8
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

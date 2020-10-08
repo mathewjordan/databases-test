@@ -1,0 +1,22 @@
+uuid: f846ea78-48f0-4530-b5e4-0d586f1ce831
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.census_ftd
+id: node.census_ftd.status
+field_name: status
+entity_type: node
+bundle: census_ftd
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

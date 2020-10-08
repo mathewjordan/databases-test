@@ -1,0 +1,14 @@
+uuid: 74f58d35-2be8-439d-93b7-2d2ebd68819d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.iterate_manager
+  module:
+    - user
+id: user_add_role_action.iterate_manager
+label: 'Add the ITERATE Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: iterate_manager

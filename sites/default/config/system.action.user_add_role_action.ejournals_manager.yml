@@ -1,0 +1,14 @@
+uuid: d35dad09-bd2a-48de-9a1c-51de74d7d525
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ejournals_manager
+  module:
+    - user
+id: user_add_role_action.ejournals_manager
+label: 'Add the ejournals Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ejournals_manager

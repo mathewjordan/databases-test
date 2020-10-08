@@ -1,0 +1,16 @@
+uuid: 04947c63-9410-42b2-a0ca-9e30df990bde
+langcode: en
+status: true
+dependencies: {  }
+id: census_ftd_role
+label: 'census-ftd Manager'
+weight: 6
+is_admin: null
+permissions:
+  - 'create census_ftd content'
+  - 'delete census_ftd revisions'
+  - 'delete own census_ftd content'
+  - 'edit any census_ftd content'
+  - 'edit own census_ftd content'
+  - 'revert census_ftd revisions'
+  - 'view census_ftd revisions'

@@ -1,0 +1,23 @@
+uuid: efac2749-4448-4507-b82e-fac6bd8d6b6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.icrg
+  module:
+    - text
+id: node.icrg.body
+field_name: body
+entity_type: node
+bundle: icrg
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

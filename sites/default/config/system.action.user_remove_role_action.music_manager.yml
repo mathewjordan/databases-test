@@ -1,0 +1,14 @@
+uuid: 55091ef1-92cf-4602-80f8-a484f5eff2e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.music_manager
+  module:
+    - user
+id: user_remove_role_action.music_manager
+label: 'Remove the Music Manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: music_manager

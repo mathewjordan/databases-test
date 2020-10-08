@@ -1,0 +1,33 @@
+uuid: a7cd8857-633f-41ac-90eb-98e7750719ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.icrg.body
+    - field.field.node.icrg.field_tags
+    - node.type.icrg
+  module:
+    - text
+    - user
+id: node.icrg.teaser
+targetEntityType: node
+bundle: icrg
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_tags: true
+  search_api_excerpt: true

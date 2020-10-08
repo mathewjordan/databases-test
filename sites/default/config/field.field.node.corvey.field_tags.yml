@@ -1,0 +1,33 @@
+uuid: 398d65d0-4ce7-4cc9-b995-6165b0037846
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.corvey
+    - taxonomy.vocabulary.tags
+  content:
+    - 'taxonomy_term:tags:c37690df-ac88-45d6-9e93-9ccf3e53e67b'
+id: node.corvey.field_tags
+field_name: field_tags
+entity_type: node
+bundle: corvey
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: c37690df-ac88-45d6-9e93-9ccf3e53e67b
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

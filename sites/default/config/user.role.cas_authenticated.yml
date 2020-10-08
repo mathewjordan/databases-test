@@ -1,0 +1,9 @@
+uuid: 1f46bfcd-a836-4f5c-929f-4391b8755e52
+langcode: en
+status: true
+dependencies: {  }
+id: cas_authenticated
+label: 'CAS Authenticated'
+weight: 3
+is_admin: null
+permissions: {  }

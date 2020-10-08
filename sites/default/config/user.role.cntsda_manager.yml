@@ -1,0 +1,16 @@
+uuid: 8717a50b-d52f-4793-a1f1-5555b6681878
+langcode: en
+status: true
+dependencies: {  }
+id: cntsda_manager
+label: 'cntsda Manager'
+weight: 8
+is_admin: null
+permissions:
+  - 'create cntsda content'
+  - 'delete cntsda revisions'
+  - 'delete own cntsda content'
+  - 'edit any cntsda content'
+  - 'edit own cntsda content'
+  - 'revert cntsda revisions'
+  - 'view cntsda revisions'

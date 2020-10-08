@@ -1,0 +1,33 @@
+uuid: 03880492-b0f8-46c9-a658-bc4c0c3fd57e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.icma
+    - taxonomy.vocabulary.tags
+  content:
+    - 'taxonomy_term:tags:349ad8d0-8ef9-46a2-8ce9-1850d3825ba6'
+id: node.icma.field_tags
+field_name: field_tags
+entity_type: node
+bundle: icma
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 349ad8d0-8ef9-46a2-8ce9-1850d3825ba6
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

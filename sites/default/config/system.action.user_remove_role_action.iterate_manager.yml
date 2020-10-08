@@ -1,0 +1,14 @@
+uuid: 18cd9ebf-ac34-49b9-86c1-ba19571b64d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.iterate_manager
+  module:
+    - user
+id: user_remove_role_action.iterate_manager
+label: 'Remove the ITERATE Manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: iterate_manager
