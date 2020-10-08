@@ -1,0 +1,23 @@
+uuid: ffd6fb3e-f937-4c09-a285-47ecd7f57095
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.census_ftd
+  module:
+    - text
+id: node.census_ftd.body
+field_name: body
+entity_type: node
+bundle: census_ftd
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

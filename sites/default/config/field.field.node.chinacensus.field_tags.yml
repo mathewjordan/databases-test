@@ -1,0 +1,33 @@
+uuid: 60dce1cd-57cf-4abf-90e3-9c42b1f82a8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.chinacensus
+    - taxonomy.vocabulary.tags
+  content:
+    - 'taxonomy_term:tags:5544ad2c-a0fa-4a5f-a382-460b6b113b54'
+id: node.chinacensus.field_tags
+field_name: field_tags
+entity_type: node
+bundle: chinacensus
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 5544ad2c-a0fa-4a5f-a382-460b6b113b54
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

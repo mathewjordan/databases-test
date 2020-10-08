@@ -1,0 +1,33 @@
+uuid: 4aeb96c1-1407-4899-a02c-ef752ff59e0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.icrg
+    - taxonomy.vocabulary.tags
+  content:
+    - 'taxonomy_term:tags:8c2188aa-24a9-4e49-8b78-430a491acc85'
+id: node.icrg.field_tags
+field_name: field_tags
+entity_type: node
+bundle: icrg
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 8c2188aa-24a9-4e49-8b78-430a491acc85
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

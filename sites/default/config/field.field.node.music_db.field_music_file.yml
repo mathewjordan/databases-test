@@ -1,0 +1,27 @@
+uuid: 1096ebb0-0cd7-4abf-a720-37174292a7c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music_file
+    - node.type.music_db
+  module:
+    - file
+id: node.music_db.field_music_file
+field_name: field_music_file
+entity_type: node
+bundle: music_db
+label: 'music file'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt rtf doc docx ppt pptx xls xlsx pdf odf odg odp ods odt fodt fods fodp fodg key numbers pages tiff tif jp2 xml png jpg'
+  max_filesize: '50000 MB'
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

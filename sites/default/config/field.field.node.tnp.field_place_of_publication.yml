@@ -1,0 +1,19 @@
+uuid: 8cb9d17f-76a9-4497-9b80-738d11fdb80d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place_of_publication
+    - node.type.tnp
+id: node.tnp.field_place_of_publication
+field_name: field_place_of_publication
+entity_type: node
+bundle: tnp
+label: 'Place of Publication'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

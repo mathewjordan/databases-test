@@ -1,0 +1,19 @@
+uuid: 0ff04b2b-ffb3-491d-bcba-51a807a5d778
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary_of_holdings_
+    - node.type.tnp
+id: node.tnp.field_summary_of_holdings_
+field_name: field_summary_of_holdings_
+entity_type: node
+bundle: tnp
+label: 'Summary of Holdings:'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

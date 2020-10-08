@@ -1,0 +1,22 @@
+uuid: 9a33623b-d465-4557-936f-28c6cf468940
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.music_db
+id: node.music_db.promote
+field_name: promote
+entity_type: node
+bundle: music_db
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

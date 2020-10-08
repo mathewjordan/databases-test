@@ -1,0 +1,19 @@
+uuid: 0d1658c5-5f09-4872-a511-165ea7c0a7f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_holding_library
+    - node.type.tnp
+id: node.tnp.field_holding_library
+field_name: field_holding_library
+entity_type: node
+bundle: tnp
+label: 'Holding Library'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: fadca71f-c2ba-467c-b747-5bcae3d2f84b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tnp
+  module:
+    - text
+id: node.tnp.body
+field_name: body
+entity_type: node
+bundle: tnp
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

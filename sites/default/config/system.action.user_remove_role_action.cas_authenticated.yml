@@ -1,0 +1,14 @@
+uuid: 0b6ca2f2-e441-4007-b53f-b260d92cf700
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cas_authenticated
+  module:
+    - user
+id: user_remove_role_action.cas_authenticated
+label: 'Remove the CAS Authenticated role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: cas_authenticated

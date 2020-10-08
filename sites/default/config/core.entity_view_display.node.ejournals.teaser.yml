@@ -1,0 +1,33 @@
+uuid: e8c59180-5203-43ff-bf79-32cc0337b366
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ejournals.body
+    - field.field.node.ejournals.field_tags
+    - node.type.ejournals
+  module:
+    - text
+    - user
+id: node.ejournals.teaser
+targetEntityType: node
+bundle: ejournals
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_tags: true
+  search_api_excerpt: true

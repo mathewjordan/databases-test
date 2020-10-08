@@ -1,0 +1,14 @@
+uuid: 526188f0-4f95-4470-8e28-7ff4b8b91f7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cas_authenticated
+  module:
+    - user
+id: user_add_role_action.cas_authenticated
+label: 'Add the CAS Authenticated role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cas_authenticated

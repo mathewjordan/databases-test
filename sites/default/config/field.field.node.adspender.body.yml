@@ -1,0 +1,23 @@
+uuid: dfd84916-7b8e-47b5-b8ce-c4145ddb2f67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.adspender
+  module:
+    - text
+id: node.adspender.body
+field_name: body
+entity_type: node
+bundle: adspender
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

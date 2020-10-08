@@ -1,0 +1,21 @@
+uuid: 18fef707-23bc-4b57-aa15-7abd6d026383
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_frequency
+    - node.type.tnp
+  module:
+    - options
+id: node.tnp.field_frequency
+field_name: field_frequency
+entity_type: node
+bundle: tnp
+label: Frequency
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

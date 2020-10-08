@@ -1,0 +1,16 @@
+uuid: 95197d68-b481-4680-beb0-cc8ec5543cd0
+langcode: en
+status: true
+dependencies: {  }
+id: icrg_manager
+label: 'ICRG Manager'
+weight: 12
+is_admin: null
+permissions:
+  - 'create icrg content'
+  - 'delete icrg revisions'
+  - 'delete own icrg content'
+  - 'edit any icrg content'
+  - 'edit own icrg content'
+  - 'revert icrg revisions'
+  - 'view icrg revisions'

@@ -1,0 +1,15 @@
+uuid: b00fea57-cb31-47a2-b882-5fce506322a2
+langcode: en
+status: true
+dependencies: {  }
+id: private_files
+path: /files/private
+bypass: false
+grant_file_owners: true
+users: {  }
+roles:
+  authenticated: authenticated
+  administrator: administrator
+  cas_authenticated: cas_authenticated
+  music_manager: music_manager
+  anonymous: '0'

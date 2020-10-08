@@ -1,0 +1,33 @@
+uuid: f68a8903-44e7-4347-96e6-9e01c71939ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.ejournals
+    - taxonomy.vocabulary.tags
+  content:
+    - 'taxonomy_term:tags:54758246-9d19-443b-9896-49fdfaa17858'
+id: node.ejournals.field_tags
+field_name: field_tags
+entity_type: node
+bundle: ejournals
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 54758246-9d19-443b-9896-49fdfaa17858
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

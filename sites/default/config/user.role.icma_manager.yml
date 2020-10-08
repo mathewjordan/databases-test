@@ -1,0 +1,15 @@
+uuid: 1de40c8f-81f9-42ed-bec9-e8ba8fbab3c2
+langcode: en
+status: true
+dependencies: {  }
+id: icma_manager
+label: 'ICMA Manager'
+weight: 11
+is_admin: null
+permissions:
+  - 'create icma content'
+  - 'delete icma revisions'
+  - 'delete own icma content'
+  - 'edit any icma content'
+  - 'revert icma revisions'
+  - 'view icma revisions'

@@ -1,0 +1,38 @@
+uuid: f20991d7-fc25-4473-9453-838d3fcf7433
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.iterate.body
+    - field.field.node.iterate.field_tags
+    - node.type.iterate
+  module:
+    - text
+    - user
+id: node.iterate.default
+targetEntityType: node
+bundle: iterate
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

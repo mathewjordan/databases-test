@@ -1,0 +1,121 @@
+uuid: ac750d0d-f010-49ed-8b15-377fefbf04d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tnp.body
+    - field.field.node.tnp.field_call_number
+    - field.field.node.tnp.field_copy
+    - field.field.node.tnp.field_detail_holdings
+    - field.field.node.tnp.field_frequency
+    - field.field.node.tnp.field_holding_library
+    - field.field.node.tnp.field_oclc
+    - field.field.node.tnp.field_place_of_publication
+    - field.field.node.tnp.field_summary_of_holdings_
+    - field.field.node.tnp.field_tags
+    - field.field.node.tnp.field_upload_tnp_file
+    - node.type.tnp
+  module:
+    - file
+    - options
+    - text
+    - user
+id: node.tnp.default
+targetEntityType: node
+bundle: tnp
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_call_number:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_copy:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_detail_holdings:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_frequency:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_holding_library:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_oclc:
+    weight: 4
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_place_of_publication:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_summary_of_holdings_:
+    weight: 10
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tags:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_upload_tnp_file:
+    weight: 11
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  search_api_excerpt: true

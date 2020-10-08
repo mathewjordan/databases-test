@@ -1,0 +1,38 @@
+uuid: ff6bef4c-d656-460b-95b8-8ba6eb75d349
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.corvey.body
+    - field.field.node.corvey.field_tags
+    - node.type.corvey
+  module:
+    - text
+    - user
+id: node.corvey.default
+targetEntityType: node
+bundle: corvey
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

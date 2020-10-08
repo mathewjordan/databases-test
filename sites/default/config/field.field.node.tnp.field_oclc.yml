@@ -1,0 +1,23 @@
+uuid: c5db3839-ba9b-4d71-9bf1-4e19e14fbc45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_oclc
+    - node.type.tnp
+id: node.tnp.field_oclc
+field_name: field_oclc
+entity_type: node
+bundle: tnp
+label: 'OCLC#'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

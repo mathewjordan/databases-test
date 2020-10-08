@@ -1,0 +1,51 @@
+uuid: 49757f51-35d7-438b-9533-a7f38686df17
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tnp.body
+    - field.field.node.tnp.field_call_number
+    - field.field.node.tnp.field_copy
+    - field.field.node.tnp.field_detail_holdings
+    - field.field.node.tnp.field_frequency
+    - field.field.node.tnp.field_holding_library
+    - field.field.node.tnp.field_oclc
+    - field.field.node.tnp.field_place_of_publication
+    - field.field.node.tnp.field_summary_of_holdings_
+    - field.field.node.tnp.field_tags
+    - field.field.node.tnp.field_upload_tnp_file
+    - node.type.tnp
+  module:
+    - text
+    - user
+id: node.tnp.teaser
+targetEntityType: node
+bundle: tnp
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_call_number: true
+  field_copy: true
+  field_detail_holdings: true
+  field_frequency: true
+  field_holding_library: true
+  field_oclc: true
+  field_place_of_publication: true
+  field_summary_of_holdings_: true
+  field_tags: true
+  field_upload_tnp_file: true
+  search_api_excerpt: true

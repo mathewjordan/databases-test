@@ -4,6 +4,8 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
+  cas: 0
+  cas_attributes: 0
   ckeditor: 0
   color: 0
   comment: 0
@@ -24,28 +26,40 @@ module:
   link: 0
   menu_link_content: 0
   menu_ui: 0
+  migrate: 0
+  migrate_drupal: 0
+  migrate_drupal_ui: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
+  permissions_by_term: 0
+  pfdp: 0
   quickedit: 0
   rdf: 0
   redis: 0
-  search: 0
+  s3fs: 0
+  s3fs_cors: 0
   search_api: 0
+  search_api_db: 0
+  search_api_db_defaults: 0
   search_api_pantheon: 0
   search_api_solr: 0
   search_api_solr_defaults: 0
   shortcut: 0
+  structure_sync: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   update: 0
   user: 0
+  views_taxonomy_term_name_depth: 0
   views_ui: 0
+  externalauth: 10
   views: 10
   standard: 1000
 theme:

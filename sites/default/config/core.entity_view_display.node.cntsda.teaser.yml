@@ -1,0 +1,33 @@
+uuid: dde03c73-28e0-4284-8397-90f65f651e90
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cntsda.body
+    - field.field.node.cntsda.field_tags
+    - node.type.cntsda
+  module:
+    - text
+    - user
+id: node.cntsda.teaser
+targetEntityType: node
+bundle: cntsda
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_tags: true
+  search_api_excerpt: true

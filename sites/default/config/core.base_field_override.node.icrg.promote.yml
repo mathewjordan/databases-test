@@ -1,0 +1,22 @@
+uuid: 1ff860f8-c707-4c90-aa11-ed8a3811afa2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.icrg
+id: node.icrg.promote
+field_name: promote
+entity_type: node
+bundle: icrg
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

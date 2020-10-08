@@ -1,0 +1,14 @@
+uuid: fb1421c0-61d4-4de3-ac96-2b79fa0a1d09
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ejournals_manager
+  module:
+    - user
+id: user_remove_role_action.ejournals_manager
+label: 'Remove the ejournals Manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ejournals_manager

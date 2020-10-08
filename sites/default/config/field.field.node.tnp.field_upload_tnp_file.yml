@@ -1,0 +1,27 @@
+uuid: 566c5893-8399-4a51-bcbf-aa1e799dcedf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_upload_tnp_file
+    - node.type.tnp
+  module:
+    - file
+id: node.tnp.field_upload_tnp_file
+field_name: field_upload_tnp_file
+entity_type: node
+bundle: tnp
+label: 'Upload File'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt rtf doc docx ppt pptx xls xlsx pdf odf odg odp ods odt fodt fods fodp fodg key numbers pages tiff tif jp2 xml'
+  max_filesize: 2GB
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

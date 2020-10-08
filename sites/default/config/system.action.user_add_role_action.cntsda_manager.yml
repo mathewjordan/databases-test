@@ -1,0 +1,14 @@
+uuid: 9537c3f1-6f90-4ae7-bf00-3bcf1d64103e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cntsda_manager
+  module:
+    - user
+id: user_add_role_action.cntsda_manager
+label: 'Add the cntsda Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cntsda_manager

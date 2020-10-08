@@ -1,0 +1,14 @@
+uuid: 570ecd51-fe46-4c1d-9908-96018fd32528
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.adspender_role
+  module:
+    - user
+id: user_remove_role_action.adspender_role
+label: 'Remove the adspender Role role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: adspender_role

@@ -50,5 +50,5 @@ if (defined('PANTHEON_ENVIRONMENT')) {
   $config['s3fs.settings']['bucket'] = 'utk-databases-large-files';
   $settings['s3fs.use_s3_for_private'] = TRUE;
   $settings['s3fs.upload_as_private'] = TRUE;
-  $settings['config_sync_directory'] = '/code/sites/default/config';
+  $settings['config_sync_directory'] = './sites/default/config';
 }

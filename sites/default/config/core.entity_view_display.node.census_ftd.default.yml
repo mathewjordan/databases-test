@@ -1,0 +1,38 @@
+uuid: db157f4d-6e18-4d56-9ec3-a7eaf90f3058
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.census_ftd.body
+    - field.field.node.census_ftd.field_tags
+    - node.type.census_ftd
+  module:
+    - text
+    - user
+id: node.census_ftd.default
+targetEntityType: node
+bundle: census_ftd
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

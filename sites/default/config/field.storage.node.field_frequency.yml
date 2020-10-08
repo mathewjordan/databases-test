@@ -1,0 +1,45 @@
+uuid: 933afc9f-32af-4c0b-88dd-3dfee24daa41
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_frequency
+field_name: field_frequency
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: daily
+      label: Daily
+    -
+      value: weekly
+      label: Weekly
+    -
+      value: monthly
+      label: Monthly
+    -
+      value: bmonthly
+      label: Bi-Monthly
+    -
+      value: quarterly
+      label: Quarterly
+    -
+      value: biannual
+      label: 'Semi-Annual / Bi-Annual'
+    -
+      value: annual
+      label: Annual
+    -
+      value: biennial
+      label: Biennial
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

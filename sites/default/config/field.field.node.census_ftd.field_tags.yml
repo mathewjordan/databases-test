@@ -1,0 +1,33 @@
+uuid: 13751559-31f2-47c3-97ff-878d6eea187d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.census_ftd
+    - taxonomy.vocabulary.tags
+  content:
+    - 'taxonomy_term:tags:1e6c8e11-47ed-424a-bebf-09774b1f8742'
+id: node.census_ftd.field_tags
+field_name: field_tags
+entity_type: node
+bundle: census_ftd
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 1e6c8e11-47ed-424a-bebf-09774b1f8742
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

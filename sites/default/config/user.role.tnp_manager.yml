@@ -1,0 +1,16 @@
+uuid: 7bb61de5-eb34-4e56-9094-817af11eff36
+langcode: en
+status: true
+dependencies: {  }
+id: tnp_manager
+label: 'TNP Manager'
+weight: 14
+is_admin: null
+permissions:
+  - 'create tnp content'
+  - 'delete own tnp content'
+  - 'delete tnp revisions'
+  - 'edit any tnp content'
+  - 'edit own tnp content'
+  - 'revert tnp revisions'
+  - 'view tnp revisions'

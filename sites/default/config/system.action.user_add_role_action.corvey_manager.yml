@@ -1,0 +1,14 @@
+uuid: cfe8d29c-ef8e-43fe-a2ce-504727f181c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.corvey_manager
+  module:
+    - user
+id: user_add_role_action.corvey_manager
+label: 'Add the corvey Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: corvey_manager
