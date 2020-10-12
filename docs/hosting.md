@@ -1,8 +1,3 @@
----
-title: Pantheon
-nav_order: 99
----
-
 ## Pantheon
 
 You can use the [editor on GitHub](https://github.com/mathewjordan/databases-test/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
