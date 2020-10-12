@@ -1,6 +1,6 @@
 remote_theme: pmarsceill/just-the-docs
 title: databases.lib.utk.edu
-url: "https://mathewjordan.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mathewjordan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
