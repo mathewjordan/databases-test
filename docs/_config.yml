@@ -36,7 +36,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "View on GitHub":
+  "View Project Source":
     - "//github.com/utkdigitalinitiatives/utk-databases-upstream"
 
 # Back to top link
@@ -46,7 +46,7 @@ back_to_top_text: "Back to top"
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/utkdigitalinitiatives/utk-databases-upstream" # the github URL for your repo
+gh_edit_repository: "https://github.com/utkdigitalinitiatives/utk-databases-upstream/docs/" # the github URL for your repo
 gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
