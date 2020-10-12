@@ -1,3 +1,11 @@
+---
+layout: default
+title: Contributing
+nav_order: 4
+has_children: true
+permalink: docs/contributing
+---
+
 ## Contributing
 
 You can use the [editor on GitHub](https://github.com/mathewjordan/databases-test/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
