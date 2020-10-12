@@ -36,7 +36,9 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "View Project Source":
+  "Visit Site":
+    - "//dev-utk-databases.pantheonsite.io"
+  "Project Source":
     - "//github.com/utkdigitalinitiatives/utk-databases-upstream"
 
 # Back to top link
