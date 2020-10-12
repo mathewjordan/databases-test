@@ -1,4 +1,11 @@
-## Database Inventory
+---
+layout: default
+title: Entities
+has_children: true
+permalink: docs/entities
+---
+
+## Database Entities
 
 You can use the [editor on GitHub](https://github.com/mathewjordan/databases-test/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
 

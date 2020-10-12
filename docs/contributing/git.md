@@ -1,5 +1,5 @@
 ---
-title: Git
+title: CI/CD Workflow
 parent: Contributing
 ---
 

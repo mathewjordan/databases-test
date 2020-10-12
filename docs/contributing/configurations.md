@@ -1,5 +1,5 @@
 ---
-title: Drupal
+title: Drupal Configuration
 parent: Contributing
 ---
 
